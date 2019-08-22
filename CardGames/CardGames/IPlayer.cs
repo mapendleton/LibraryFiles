@@ -4,9 +4,9 @@ using System.Collections.Generic;
 namespace CardGames
 {
 
-    interface IPlayer
+    public interface IPlayer
     {
-        int Name { get; set; }
+        string Name { get; set; }
         List<Card> Hand { get; set; }
         bool IsActivelyPlaying { get; set; }
         bool IsTurn { get; set; }

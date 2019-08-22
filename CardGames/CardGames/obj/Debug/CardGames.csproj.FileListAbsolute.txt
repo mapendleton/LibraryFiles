@@ -1,0 +1,5 @@
+C:\Users\Matthew Pendleton\Documents\Visual Studio 2015\Projects\LibraryFiles\LibraryFiles\CardGames\CardGames\bin\Debug\CardGames.dll
+C:\Users\Matthew Pendleton\Documents\Visual Studio 2015\Projects\LibraryFiles\LibraryFiles\CardGames\CardGames\bin\Debug\CardGames.pdb
+C:\Users\Matthew Pendleton\Documents\Visual Studio 2015\Projects\LibraryFiles\LibraryFiles\CardGames\CardGames\obj\Debug\CardGames.dll
+C:\Users\Matthew Pendleton\Documents\Visual Studio 2015\Projects\LibraryFiles\LibraryFiles\CardGames\CardGames\obj\Debug\CardGames.pdb
+C:\Users\Matthew Pendleton\Documents\Visual Studio 2015\Projects\LibraryFiles\LibraryFiles\CardGames\CardGames\obj\Debug\CardGames.csprojResolveAssemblyReference.cache
