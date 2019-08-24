@@ -32,6 +32,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +47,76 @@
     <Compile Include="IPlayer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\cards_01_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_02_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_03_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_04_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_05_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_06_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_07_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_08_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_09_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_10_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_11_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_12_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_13_clubs.bmp" />
+    <EmbeddedResource Include="Images\cards_14_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_15_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_16_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_17_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_18_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_19_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_20_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_21_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_22_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_23_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_24_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_25_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_26_diamonds.bmp" />
+    <EmbeddedResource Include="Images\cards_27_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_28_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_29_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_30_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_31_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_32_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_33_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_34_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_35_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_36_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_37_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_38_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_39_hearts.bmp" />
+    <EmbeddedResource Include="Images\cards_40_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_41_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_42_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_43_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_44_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_45_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_46_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_47_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_48_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_49_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_50_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_51_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_52_spades.bmp" />
+    <EmbeddedResource Include="Images\cards_53_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_54_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_55_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_56_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_57_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_58_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_59_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_60_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_61_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_62_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_63_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_64_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_65_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_67_backs.bmp" />
+    <EmbeddedResource Include="Images\cards_68_backs.bmp" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,9 +1,12 @@
-﻿namespace CardGames
+﻿using System.Drawing;
+
+namespace CardGames
 {
     public struct Card
     {
         public Suit Suit { get; set; }
         public Face Face { get; set; }
+        public Bitmap CardImage { get; set; }
 
         public override string ToString()
         {
@@ -21,6 +24,7 @@
 
     public enum Face
     {
+        Ace,
         Two,
         Three,
         Four,
@@ -33,6 +37,5 @@
         Jack,
         Queen,
         King,
-        Ace
     }
 }
