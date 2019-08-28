@@ -31,7 +31,7 @@ namespace CardGames
             string assemblyStream = " ";
             try
             {
-                for (int i = 0; i < 52; i++)
+                for (int i = 0; i < 53; i++)
                 {
                     int cardNum = i + 1;
                     if (i < 9)
@@ -50,20 +50,31 @@ namespace CardGames
                     {
                         assemblyStream = "CardGames.Images.cards_" + cardNum + "_hearts.bmp";
                     }
-                    else if (i >= 39)
+                    else if (i >= 39 && i < 52)
                     {
                         assemblyStream = "CardGames.Images.cards_" + cardNum + "_spades.bmp";
                     }
-
+                    else if (i == 52)
+                    {
+                        assemblyStream = "CardGames.Images.cards_59_backs.bmp";
+                    }
+                    //stream needs to stay open for cards to display in program.
                     Stream myStream = MyAssembly.GetManifestResourceStream(assemblyStream);
-                    if (myStream != null && assemblyStream != " ")
+                    
+                    if (myStream != null && assemblyStream != " " && i != 52)
                     {
                         CardImages.Add(new Bitmap(myStream));
                     }
+                    else if (i == 52 && myStream!= null)
+                    {
+                        DeckBack = new Card() {CardImage = new Bitmap(myStream)};
+                    }
                     else
                     {
-                        throw new Exception("Invalid Stream");
+                        throw new ArgumentException("Invalid Stream for i= " + i );
                     }
+                    
+
                 }
 
                 for (int i = 0; i < 13; i++)
@@ -90,13 +101,13 @@ namespace CardGames
                                 card.CardImage = CardImages[i + 39];
                                 break;
                             default:
-                                throw new Exception("something went wrong with switch statement");
+                                throw new ArgumentException("something went wrong with switch statement");
                         }
                         Cards.Add(card);
                     }
                 }
             }
-            catch (Exception e)
+            catch (ArgumentException e)
             {
                 MessageBox.Show(e.Message);
                 throw;
@@ -104,6 +115,7 @@ namespace CardGames
         }
 
         public List<Card> Cards { get; set; }
+        public Card DeckBack { get; set; }
         public List<Bitmap> CardImages { get; set; }
         public Assembly MyAssembly { get; set; }
 
